@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+The purpose of using session is to commit a login to memory on the server so that a user doesn't have to re-login when they want to see an authenticated page.
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+Bcrypt is a cross platform file encryption utility from bcrypt. Bcrypt is an adaptive password hashing algorithm.
 
 - [ ] What does bcrypt do to slow down attackers?
 
+ Bcrypt was designed for password hashing hence it is a slow algorithm. This is good for password hashing as it reduces the number of passwords by second an attacker could hash when crafting an attack.
+
 - [ ] What are the three parts of the JSON Web Token?
+
+The header, payload, and signature
 
 ## Minimum Viable Product
 
